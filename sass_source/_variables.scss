@@ -1,0 +1,24 @@
+// Media queries
+$x-small: "only screen and (min-width: 480px)";
+$small: "only screen and (min-width: 768px)";
+$medium: "only screen and (min-width: 992px)";
+$large: "only screen and (min-width: 1100px)";
+$x-large: "only screen and (min-width: 1500px)";
+
+// Text variables
+$primary-font: 'Poppins', sans-serif;
+$secondary-font: 'Josefin Sans', sans-serif;
+$basic-font-size: 18px;
+$basic-line-height: 27px;
+
+// Colors
+$white: #fff;
+$accent-color: #F2AB27;
+$main-text-color: #201E1E;
+$green: #34401A;
+$hover: #252e10;
+
+// Colors - messages
+$msg-red: #c80000;
+$msg-green: #24a76a;
+$msg-blue: #1c9ed2;

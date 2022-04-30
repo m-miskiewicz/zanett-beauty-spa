@@ -1,0 +1,15 @@
+// Text size
+@mixin text-size($fs,$lh) {
+	font-size: $fs;
+	line-height: $lh;
+}
+
+// Transition
+@mixin basic-transition {
+	transition: all .25s ease-in-out;
+}
+
+// Box shadow
+@mixin box-shadow {
+	box-shadow: 0px 0px 26px 3px rgba(0,0,0,0.16);
+}

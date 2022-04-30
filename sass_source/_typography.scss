@@ -1,0 +1,57 @@
+// Basic text styles
+body {
+    font-family: $primary-font;
+    font-size: $basic-font-size;
+    line-height: $basic-line-height;
+    color: $main-text-color;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $secondary-font;
+    font-weight: 700;
+}
+
+h1 {
+    @include text-size(36px,49px);
+    margin: 0;
+    @media #{$medium} {
+        @include text-size(108px,130px);
+    }
+}
+
+h2 {
+    @include text-size(32px,45px);
+    margin: 0;
+    @media #{$medium} {
+        @include text-size(38px,47px);
+    }
+}
+
+h3 {
+    @include text-size(24px,32px);
+    margin: 0;
+}
+
+p {
+    margin: 10px 0;
+    font-weight: 400;
+}
+
+a {
+    color: $main-text-color;
+    text-decoration: none;
+    outline: none;
+    @include basic-transition;
+    &:hover {
+        color: $accent-color;
+    }
+    &:active, &:focus {
+		outline: none;
+	}
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
